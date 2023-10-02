@@ -1,0 +1,77 @@
+.feed{
+ flex: 0.5;
+ border-right: 1px solid color(srgb 90.2 92.5 94.1);
+ min-width: fit-content;
+ overflow-y: scroll;
+
+
+
+}
+
+.feed__header{
+
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+    border: 1px solid color(srgb 90.2 92.5 94.1);
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: 800;
+    
+
+ 
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+    
+
+.feed__box{
+    padding-bottom: 10px;
+    border-bottom: 8px solid color(srgb 90.2 92.5 94.1);
+    padding-right: 10px;
+
+
+    
+}
+
+.feed__image{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+.feed__box form{
+   display: flex; 
+ 
+
+
+
+}
+
+.feed__input input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+
+}
+
+.feed__tweetbutton{
+    background:  #1f9cea;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width:80px ;
+    height: 40px; 
+    margin-top: 20px;
+    margin-left:auto ;
+    cursor: pointer;
+
+
+}
+
